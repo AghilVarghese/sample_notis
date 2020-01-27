@@ -17,4 +17,12 @@ public class Util {
 
 		return "";
 	}
+
+	public static String getMessageId() {
+		// Unique request number for the each request <CODE><YYYYMMDD><nnnnnnn> •
+		// MEMBERCODE – Member code (Length : 5) • YYYYMMDD – Date format • nnnnnnn –
+		// Sequence no. starting from one i.e. For first request of the day, it should
+		// be (0000001).
+		return "";
+	}
 }
